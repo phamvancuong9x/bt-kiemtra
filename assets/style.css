@@ -38,7 +38,7 @@ a {
 .nav__item {
 }
 .nav__item:hover .nav__item-link {
-  color: tomato;
+  color: rgb(250, 95, 68);
 }
 .nav__item-link {
   color: #fff;
@@ -63,22 +63,26 @@ a {
   width: 278px;
   background-color: #fff;
 }
+/* .tour__item :hover{
+  box-shadow: 0 0 8px rgb(23, 117, 204);
+} */
+.tour__item :hover .tour__item-image {
+  opacity: 0.5;
+}
+.tour__item :hover .tour__item-name {
+  color: rgb(34, 100, 201);
+}
 .tour__item-link {
 }
 .tour__item-image {
   transition: 0.3s;
 }
-.tour__item-image:hover {
-  opacity: 0.5;
-}
+
 .tour__item-name {
   transition: 0.3s;
   font-size: 20px;
   color: #444;
   padding: 12px;
-}
-.tour__item-name:hover {
-  color: rgb(34, 100, 201);
 }
 .tour__item-info {
   padding: 0 24px;
@@ -95,7 +99,7 @@ a {
 .tour__info {
 }
 .tour__price {
-  color: rgb(245, 33, 33);
+  color: rgb(226, 55, 55);
   font-size: 20px;
   padding-bottom: 12px;
 }
