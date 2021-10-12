@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  display: block;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: unset;
+}
+.main {
+}
+/* header */
+.header {
+  background-color: rgb(18, 136, 204);
+}
+.nav {
+  width: 1200px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.nav__item {
+}
+.nav__item:hover .nav__item-link {
+  color: tomato;
+}
+.nav__item-link {
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+}
+/* content */
+.content {
+  width: 1200px;
+  margin: auto;
+  background-color: rgb(241, 230, 230);
+}
+.container {
+}
+.tour__list {
+  padding: 30px 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.tour__item {
+  width: 278px;
+  background-color: #fff;
+}
+.tour__item-link {
+}
+.tour__item-image {
+  transition: 0.3s;
+}
+.tour__item-image:hover {
+  opacity: 0.5;
+}
+.tour__item-name {
+  transition: 0.3s;
+  font-size: 20px;
+  color: #444;
+  padding: 12px;
+}
+.tour__item-name:hover {
+  color: rgb(34, 100, 201);
+}
+.tour__item-info {
+  padding: 0 24px;
+  line-height: 1.5;
+}
+.tour__info-time {
+}
+.tour__info-startDay {
+}
+.tour__info-tickets {
+  display: flex;
+  justify-content: space-between;
+}
+.tour__info {
+}
+.tour__price {
+  color: rgb(245, 33, 33);
+  font-size: 20px;
+  padding-bottom: 12px;
+}

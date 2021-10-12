@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  display: block;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: unset;
+}
+.main {
+}
+/* header */
+.header {
+  background-color: rgb(18, 136, 204);
+}
+.nav {
+  width: 1200px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.nav__item {
+}
+.nav__item:hover .nav__item-link {
+  color: tomato;
+}
+.nav__item-link {
+  color: #fff;
+  font-size: 20px;
+  line-height: 60px;
+}
+.content {
+  width: 1200px;
+  margin: 32px auto;
+}
+.container {
+}
+.tour__name {
+  margin-bottom: 32px;
+}
+.tour__info {
+  display: flex;
+  justify-content: space-between;
+}
+.tour__image {
+  width: 50%;
+}
+.describe {
+  width: 40%;
+}
+
+/* tour__ticket
+ tour__price
+  tour__buy  */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  line-height: 40px;
+  background-color: rgb(39, 42, 182);
+  border-radius: 20px;
+  color: #fff;
+}
