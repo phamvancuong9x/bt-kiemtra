@@ -22,6 +22,11 @@ a {
 /* header */
 .header {
   background-color: rgb(18, 136, 204);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 .nav {
   width: 1200px;
@@ -43,8 +48,9 @@ a {
 /* content */
 .content {
   width: 1200px;
+  padding-top: 60px;
   margin: auto;
-  background-color: rgb(241, 230, 230);
+  background-color: rgb(235, 241, 248);
 }
 .container {
 }
