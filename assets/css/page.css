@@ -81,3 +81,6 @@ a {
   border-radius: 20px;
   color: #fff;
 }
+.btn:hover{
+  opacity: 0.6;
+}
