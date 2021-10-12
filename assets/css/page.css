@@ -62,6 +62,7 @@ a {
 .describe {
   width: 40%;
   color: #555;
+  text-align: justify;
 }
 
 /* tour__ticket
