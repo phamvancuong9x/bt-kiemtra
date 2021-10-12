@@ -91,6 +91,7 @@ a {
   line-height: 1.5;
 }
 .tour__info-time {
+  margin-bottom: 4px;
 }
 .tour__info-startDay {
 }
