@@ -77,6 +77,9 @@ a {
   padding: 12px;
   text-align: justify;
 }
+.tour__item:hover {
+  box-shadow: 0 0 8px rgb(133, 61, 228);
+}
 .tour__item :hover .tour__item-image {
   opacity: 0.5;
 }
