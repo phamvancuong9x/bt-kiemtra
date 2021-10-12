@@ -75,6 +75,7 @@ a {
   font-size: 20px;
   color: #444;
   padding: 12px;
+  text-align: justify;
 }
 .tour__item :hover .tour__item-image {
   opacity: 0.5;
