@@ -97,11 +97,12 @@ a {
 .tour__info-tickets {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
 }
 .tour__info {
 }
 .tour__price {
   color: rgb(226, 55, 55);
   font-size: 20px;
-  padding-bottom: 12px;
 }
