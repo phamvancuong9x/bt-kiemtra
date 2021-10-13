@@ -90,6 +90,9 @@ a {
   padding: 0 24px;
   line-height: 1.5;
 }
+.tour__item-info i{
+margin-right: 6px;
+}
 .tour__info-time {
   margin-bottom: 4px;
 }
